@@ -12,7 +12,7 @@ services:
             - ./extensions:/directus/extensions
         environment:
             SECRET_FILE: /run/secrets/secret_key
-            ADMIN_EMAIL: "mauro.longano@marconirovereto.it"
+            ADMIN_EMAIL: "moustapha.mbaye@marconirovereto.it"
             ADMIN_PASSWORD_FILE: /run/secrets/admin_password
             DB_CLIENT: "sqlite3"
             DB_FILENAME: "/directus/database/data.db"
